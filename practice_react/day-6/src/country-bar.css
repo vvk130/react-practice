@@ -1,0 +1,19 @@
+  .middle-bar {
+    background-color: white;
+  }
+
+  th, td {
+    border: none;
+    padding: 0.2em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    text-transform: "uppercase";
+    height: 30px; /* Set the height for all cells */
+    vertical-align: middle; /* Align content vertically */
+  }
+
+  div:empty {
+    background-color: "orange";
+  }
